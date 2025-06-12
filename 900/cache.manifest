@@ -3,3 +3,9 @@ CACHE MANIFEST
 CACHE:
 ../img.jpg
 ../style.css
+../index.html
+index.html
+../PAY/index.html
+
+NETWORK:
+*

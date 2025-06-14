@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html><head>
+<html>
+<head>
 <title>OBADA HOSTS</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
+<script src="int64.js"></script>
+<script src="rop.js"></script>
+<script src="kexploit.js"></script>
+<script src="webkit.js"></script>
 </head>
-<body>
-<h1 id="msgs">OBADA HOSTS</h1>
+<body onload="setTimeout(poc, 50);">
+<script>
+if (window.applicationCache.status=='0'){window.location.replace("900/cache.html");}
+</script>
+<h1 id="msgs">PS4 9.00 FW Host v1.0 by OBADA | No USB</h1>
 <hr>
 <br>
-<div id="menu">
-<h1 style="font-size: 27px;color: red;">PRESS BUTTON TO JAILBREAK</h1>
-<a href="900/cache.html"><button class="btn" onmouseover="msgs.innerHTML='OBADA HOSTS'" onmouseout="msgs.innerHTML='OBADA HOSTS'"> Start </button></a>
+<div id="progress">
+<h1 id="msgs2" style="font-size: 30px;margin-top: 77px;margin-bottom: 412px;">Loading Jailbreak... Please Wait</h1>
+</div>
+<div id="menu" style="display: none">
+<h1 style="font-size: 18px;color: yellow;">Payloads</h1>
+<button class="btn" onmouseover="msgs.innerHTML='OBADA HOSTS'" onmouseout="msgs.innerHTML='OBADA HOSTS'" onclick="load_goldhenbeta()"> Start </button>
 <a href="PAY/index.html"><button class="btn" onmouseover="msgs.innerHTML='OBADA HOSTS'" onmouseout="msgs.innerHTML='OBADA HOSTS'"> Donation </button></a>
 <br>
-<h1>Designed by:<a href="https://twitter.com/Obada131446" style="color: #f31414;margin-left: 10px;margin-right: 10px;">@Obada</a>A special thanks to all the devs on the scene.</h1>
-</div>
